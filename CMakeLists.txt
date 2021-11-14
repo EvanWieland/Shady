@@ -3,9 +3,9 @@ project(shady)
 
 find_package(OpenCV REQUIRED)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(shady main.cpp Observer.cpp Observer.h Glasses.cpp Glasses.h Paint.cpp Paint.h Glasses.cpp Glasses.h Shades.cpp Shades.h Readers.cpp Readers.h Shape.cpp Shape.h File.cpp File.h)
+add_executable(shady main.cpp Observer.cpp Observer.h Glasses.cpp Glasses.h Paint.cpp Paint.h Glasses.cpp Glasses.h Shades.cpp Shades.h Shape.cpp Shape.h File.cpp File.h)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 

@@ -3,11 +3,10 @@
 //
 
 #include "File.h"
-
 #include <filesystem>
 
 std::string File::getCWD()
 {
-    std::__fs::filesystem::path cwd = std::__fs::filesystem::current_path();
+    auto cwd = std::filesystem::current_path();
     return cwd.string();
 }
