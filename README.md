@@ -29,7 +29,7 @@ $ sudo apt install libopencv-dev python3-opencv
 Install requirements mentioned above
 
 ```console
-$ sudo apt install build-essential
+$ sudo apt install build-essential # If no compiler already installed
 $ git clone https://github.com/EvanWieland/Shady.git
 $ cd /path/to/shady/project
 $ mkdir cmake-build-release && cd cmake-build-release && cmake ../
