@@ -5,6 +5,8 @@
 <p align="center"></p>
 </p>
 
+![Example](https://github.com/EvanWieland/Shady/raw/main/readme.png "Example")
+
 ## Requirements
 
 ### CMake
