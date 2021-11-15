@@ -57,3 +57,6 @@ Press the `ENTER` key to swap between reading glasses and sunglasses.
 
 Press and hold the `ESC` key to terminate the program.
 
+### Credits
+
+[This post](https://learnopencv.com/facemark-facial-landmark-detection-using-opencv/) by LearnOpenCV helped get me up to speed for this project.
